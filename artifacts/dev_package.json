@@ -242,12 +242,12 @@
 	"tile": [
 		{
 			"id": "afefc1c6-64dd-4776-b078-465205400a75",
-			"description": "Define forms for your survey",
-			"name": "SURVEY Forms"
+			"description": "Create Survey templates with No-Code",
+			"name": "SURVEY Designer"
 		},
 		{
 			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
-			"description": "Create survey based on form template",
+			"description": "Create Survey from a template",
 			"name": "SURVEY Survey"
 		},
 		{
@@ -265,7 +265,13 @@
 	],
 	"launchpad": [],
 	"certificates": [],
-	"role": [],
+	"role": [
+		{
+			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
+			"name": "neptunesoftware-survey",
+			"description": null
+		}
+	],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [

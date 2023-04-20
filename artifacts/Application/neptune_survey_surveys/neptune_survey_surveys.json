@@ -306,7 +306,7 @@
 																		{
 																			"attribute": "text",
 																			"grouping": "Properties",
-																			"value": "Create survey based on form template",
+																			"value": "Create survey based on a template",
 																			"script": "",
 																			"translation": []
 																		},
@@ -1393,7 +1393,6 @@
 													"grouping": "Events",
 													"value": "controller.save();",
 													"script": "controller.save();",
-													"language": "javascript",
 													"translation": []
 												}
 											],
@@ -4612,7 +4611,7 @@
 								{
 									"attribute": "title",
 									"grouping": "Properties",
-									"value": "Select Form",
+									"value": "Select a Template",
 									"script": "",
 									"translation": []
 								},
@@ -6374,7 +6373,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.11.1615",
+	"ver": "23.4.20.1238",
 	"application": "neptune_survey_surveys",
 	"title": "Neptune SURVEY Surveys",
 	"description": "Neptune SURVEY Surveys",
