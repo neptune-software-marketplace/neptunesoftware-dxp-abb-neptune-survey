@@ -1,0 +1,150 @@
+*,
+::after,
+::before {
+    box-sizing: content-box;
+}
+
+.nbsInput .form-control,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.nbsInput .form-control {
+    color: #b1b1b1;
+    background-color: #3b3b3b;
+}
+
+.root {
+    --formBackground: ""
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.nbsInput.sapMColumnHeaderContent {
+    width: 100%;
+}
+
+.alert {
+    border-radius: 0.75rem;
+}
+
+html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {
+    outline: none;
+}
+
+.sapFDynamicPageTitle {
+    padding: 0.5rem 0.5rem 0.5rem 1.2rem;
+}
+
+.nepFlexWrap .sapFDynamicPageTitleMain {
+    flex-wrap: wrap !important;
+}
+
+.nepFlexLeft .sapFDynamicPageTitleMainInner {
+    width: 100% !important;
+}
+
+.nepNoScroll .sapMPanelContent {
+    overflow: hidden;
+}
+
+.nepForm {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sapMITBBackgroundDesignTransparent>.sapMITBContainerContent>.sapMITBContent {
+    background-image: var(--formBackground);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.formNoPadding .sapMListTblHighlightCol+.sapMListTblHeaderCell,
+.formNoPadding .sapMListTblHighlightCell+.sapMListTblCell {
+    padding: 0
+}
+
+.formNoBorder.sapMTB.sapMTBStandard {
+    border: none !important;
+}
+
+.formNoBorder .sapMITBContent {
+    border: none !important;
+}
+
+.formBorder {
+    border: 1px solid var(--nepBorderColor);
+}
+
+.formNoBorderRadius {
+    border-radius: 0;
+}
+
+.formToolbar.sapMTB.sapMTBStandard {
+    border-radius: 6px;
+    background: #242e38;
+}
+
+.formToolbar .sapMListTbl .sapMText,
+.formToolbar .sapMListTbl .sapMLabel {
+    color: var(--nepHighlightColor) !important;
+}
+
+.sapMListTbl .sapMLabel {
+    color: var(--nepHighlightColor) !important;
+}
+
+.sapMPanelWrappingDiv.sapMPanelWrappingDivExpanded,
+.sapMPanelWrappingDivTb.sapMPanelWrappingDivTbExpanded {
+    border-bottom: 0.0625rem solid var(--nepBorderColor);
+}
+
+.sapMPanel>.sapMPanelHdr,
+.sapMPanelWrappingDiv,
+.sapMPanelWrappingDivTb {
+    border-bottom: none;
+}
+
+.sapMLIBFocusable:focus {
+    outline: none;
+}
+
+/* PREVIEW + BOOTSTRAP FIX*/
+
+.sapMRI {
+    box-sizing: content-box;
+}
+
+.sapMRISel {
+    box-sizing: content-box;
+}
+
+.sapMRISelector {
+    box-sizing: content-box;
+}
+
+.sapMRIHov {
+    box-sizing: content-box;
+}
+
+.sapMRIUnselWrapper {
+    box-sizing: content-box;
+}
+
+.formBackground {
+    background-image: var(--formBackground);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.invalidResponse {
+    border: 4px solid #fa6161;
+}

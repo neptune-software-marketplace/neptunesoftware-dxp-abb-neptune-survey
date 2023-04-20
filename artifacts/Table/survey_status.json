@@ -1,0 +1,49 @@
+{
+	"id": "ad946778-fcf8-4c3d-93e2-7b2982069e92",
+	"createdAt": "2022-12-09T06:19:07.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "8b79ae12-9445-4e99-9635-8e794d3be76e",
+			"fieldName": "status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Status",
+			"isNullable": true
+		},
+		{
+			"id": "1bc1b373-7788-4f4e-c03f-84d02f4e1314",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "64b63666-a31e-4304-bf3a-1ee738d8ed5d",
+			"fieldName": "state",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "State",
+			"isNullable": true
+		},
+		{
+			"id": "9cde194c-5202-4d24-c098-243545909ea9",
+			"fieldName": "icon",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Icon",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_status",
+	"description": "Survey: Status",
+	"ver": "22.12.9.719",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

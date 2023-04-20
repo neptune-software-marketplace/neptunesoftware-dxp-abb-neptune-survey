@@ -1,0 +1,79 @@
+{
+	"id": "f1d490cb-f81c-453d-b7df-3b1e3055a391",
+	"createdAt": "2022-12-09T06:32:09.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "28f1e315-3109-4dd3-d66b-8adfe85eb786",
+			"method": "POST",
+			"path": "/submit",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "df5f4548-0ed7-4460-8d01-33de96ddc525"
+		},
+		{
+			"id": "f72c63f0-3acd-4573-aa45-92720fcfbe8b",
+			"method": "GET",
+			"path": "/start",
+			"description": "",
+			"parameters": [
+				{
+					"name": "suveyid",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "link",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "237bbe3d-9d79-4584-8037-9716da945625"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "SurveyPublic",
+	"endpoint": "/public/serverscript/surveypublic",
+	"ver": "22.12.9.158",
+	"version": "1.0",
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"apiGroup": "461c2f81-ce9f-4ae4-815f-1a833e040315",
+	"apiFormat": 0,
+	"roles": []
+}

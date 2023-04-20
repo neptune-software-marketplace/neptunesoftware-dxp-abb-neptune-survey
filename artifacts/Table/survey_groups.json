@@ -1,0 +1,49 @@
+{
+	"id": "2e6fc249-1913-409d-bd24-92dd79a20dcd",
+	"createdAt": "2022-12-09T06:20:07.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "00d3a7c8-f947-42cc-8485-f5855483d93a",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "ad6d92ad-f9b7-4ee8-a003-b2d1d071590b",
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Description",
+			"isNullable": true
+		},
+		{
+			"id": "ed592e90-1c3f-42c6-a270-5757c1defb26",
+			"fieldName": "setup",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Setup"
+		},
+		{
+			"id": "575e7418-172f-43a2-a92d-708944d08a44",
+			"fieldName": "color",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Color",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_groups",
+	"description": "Survey: Receiver Groups",
+	"ver": "23.4.5.918",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,65 @@
+{
+	"id": "d3bbb57a-95de-49e5-967b-e6968bee87ff",
+	"createdAt": "2022-12-09T06:29:03.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "22bade6d-ffe4-4f65-9765-121591a283e5",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "e67efd64-d145-4ac1-b10f-cd19f0dffff0",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Description",
+			"isNullable": true
+		},
+		{
+			"id": "10e70815-5be4-4d46-a534-a099ecd2e909",
+			"fieldName": "formid",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Form ID",
+			"isNullable": true
+		},
+		{
+			"id": "e952070d-490d-41f6-ebed-f21b40a91483",
+			"fieldName": "setup",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Setup"
+		},
+		{
+			"id": "126f80c7-037c-497a-d9f4-ce3343ac3b71",
+			"fieldName": "distribution",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "Distribution Details",
+			"isNullable": true
+		},
+		{
+			"id": "27f09370-f65e-4ec9-9847-13863be643f0",
+			"fieldName": "protected",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Protected Mode",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_master",
+	"description": "Survey: Master Survey",
+	"ver": "22.12.19.851",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

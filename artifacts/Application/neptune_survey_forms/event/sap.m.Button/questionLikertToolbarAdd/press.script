@@ -1,0 +1,9 @@
+const context = oEvent.oSource.getBindingContext("SurveyData");
+const data = context.getObject();
+
+data.items.push({
+    id: ModelData.genID(),
+    title: "Statement " + (data.items.length + 1)
+})
+
+modelSurveyData.refresh();

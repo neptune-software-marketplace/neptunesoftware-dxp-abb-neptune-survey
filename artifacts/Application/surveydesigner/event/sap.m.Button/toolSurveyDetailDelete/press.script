@@ -1,0 +1,22 @@
+sap.m.MessageBox.confirm("Delete survey from database? This cannot be undone!", {
+    icon: sap.m.MessageBox.Icon.ERROR,
+    title: "Danger Zone",
+    actions: [sap.m.MessageBox.Action.YES, sap.m.MessageBox.Action.NO],
+    initialFocus: "No",
+    onClose: function (sAction) {
+        if (sAction === "YES") {
+            apiSurveyDelete({
+                parameters: {
+                    id: modelSurveyMaster.oData.survey.id,
+                },
+            }).then(function (data) {
+                apiMaster();
+
+                toastStatus.setMessage("Survey Deleted");
+                toastStatus.clone().show();
+
+                oApp.backToPage(pageSurveyList);
+            });
+        }
+    },
+});

@@ -1,0 +1,57 @@
+[
+	{
+		"id": "e9548417-058a-4511-9a9e-e0b2829ca6fe",
+		"createdAt": "1670570772761",
+		"updatedAt": "1670570772761",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "2",
+		"name": "Invite Sent",
+		"state": "Warning",
+		"icon": null
+	},
+	{
+		"id": "bcc288b0-0834-45b4-b5bf-49857af6fcff",
+		"createdAt": "1670570772761",
+		"updatedAt": "1670570772761",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "4",
+		"name": "Submitted",
+		"state": "Success",
+		"icon": null
+	},
+	{
+		"id": "62e30c59-08d3-46aa-aa8a-ea05978180c9",
+		"createdAt": "1670570772761",
+		"updatedAt": "1670570772761",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "3",
+		"name": "Opened",
+		"state": "Warning",
+		"icon": null
+	},
+	{
+		"id": "55f3c933-312b-419f-9377-a54b15d601ec",
+		"createdAt": "1670570772761",
+		"updatedAt": "1670570772761",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "1",
+		"name": "Initial",
+		"state": "None",
+		"icon": null
+	},
+	{
+		"id": "12bfc4b2-864f-475f-8429-48134308c87f",
+		"createdAt": "1675681646071",
+		"updatedAt": "1675681646071",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "9",
+		"name": "Invite Sending Error",
+		"state": "Error",
+		"icon": null
+	}
+]

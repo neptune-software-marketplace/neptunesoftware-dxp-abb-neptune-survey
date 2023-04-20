@@ -1,0 +1,9 @@
+if (typeof groupid === "undefined" || groupid === null || groupid === "") { return; }  
+
+var rec = ModelData.FindFirst(modelMasterData.oData.groups, "id", groupid);
+
+if (rec) {
+    return rec.name;
+} else {
+    return status;
+}

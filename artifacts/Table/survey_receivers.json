@@ -1,0 +1,49 @@
+{
+	"id": "5bb63faf-2758-4243-b3ac-b6f91cfe876b",
+	"createdAt": "2022-12-09T06:18:38.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "1e89b672-61ef-4b5a-9c84-bc0f1a5d9b57",
+			"fieldName": "surveyid",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Survey ID",
+			"isNullable": true
+		},
+		{
+			"id": "a9b2aa47-131a-47d5-9227-39fa19b55221",
+			"fieldName": "email",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "eMail",
+			"isNullable": true
+		},
+		{
+			"id": "9d97faea-83a8-4585-824b-12c28bbe79a9",
+			"fieldName": "status",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Status",
+			"isNullable": true
+		},
+		{
+			"id": "3edf83fa-a876-47ae-931b-3d6662c093e6",
+			"fieldName": "groupid",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Group ID",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_receivers",
+	"description": "Survey: Receivers",
+	"ver": "22.12.9.1434",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

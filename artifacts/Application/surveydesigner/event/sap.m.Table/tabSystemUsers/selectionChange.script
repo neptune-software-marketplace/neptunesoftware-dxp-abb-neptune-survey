@@ -1,0 +1,2 @@
+const selectedItems = tabUsers.getSelectedItems();
+toolUsersDelete.setEnabled(selectedItems.length > 0);

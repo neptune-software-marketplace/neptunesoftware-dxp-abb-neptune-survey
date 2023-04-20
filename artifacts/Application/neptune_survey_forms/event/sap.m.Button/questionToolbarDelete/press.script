@@ -1,0 +1,5 @@
+const context = oEvent.oSource.getBindingContext("SurveyData");
+const data = context.getObject();
+
+ModelData.Delete(modelSurveyData.oData.questions, "id", data.id);
+modelSurveyData.refresh();

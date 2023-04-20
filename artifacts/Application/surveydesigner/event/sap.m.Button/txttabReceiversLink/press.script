@@ -1,0 +1,7 @@
+const context = oEvent.oSource.getBindingContext("SurveyMaster");
+const data = context.getObject();
+
+sap.m.URLHelper.redirect(
+    "/public/app/surveysubmit?surveyid=" + modelSurveyMaster.oData.survey.id + "&link=" + data.id,
+    true
+);

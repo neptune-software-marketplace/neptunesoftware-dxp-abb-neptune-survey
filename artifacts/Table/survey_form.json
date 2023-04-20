@@ -1,0 +1,58 @@
+{
+	"id": "e7b354dd-f2ba-4f33-bd28-e8873b2cb895",
+	"createdAt": "2022-12-09T06:14:58.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "437213dc-de56-4b54-d74c-bf9541602377",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "39b6910b-ef73-4049-c848-394c0526a5dd",
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Description",
+			"isNullable": true
+		},
+		{
+			"id": "72f82c69-4476-419c-d833-7e900f336415",
+			"fieldName": "questions",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "Questions",
+			"isNullable": true
+		},
+		{
+			"id": "942f6880-a0f6-4755-a26c-373dd13dbc1a",
+			"fieldName": "setup",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "Setup",
+			"isNullable": true
+		},
+		{
+			"id": "b507525a-c832-46c6-907f-9f5f77f8fbc8",
+			"fieldName": "deleted",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Deleted",
+			"isNullable": true,
+			"default": ""
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_form",
+	"description": "Survey: Form",
+	"ver": "22.12.19.1131",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

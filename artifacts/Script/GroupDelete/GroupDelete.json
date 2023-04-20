@@ -1,0 +1,26 @@
+{
+	"id": "ee7f6b25-10dd-4e65-bc84-b4a40e91a075",
+	"createdAt": "2022-12-09T12:00:24.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "2e6fc249-1913-409d-bd24-92dd79a20dcd",
+			"name": "survey_groups",
+			"contextname": "survey_groups"
+		}
+	],
+	"apis": [],
+	"name": "GroupDelete",
+	"ver": "22.12.9.130",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

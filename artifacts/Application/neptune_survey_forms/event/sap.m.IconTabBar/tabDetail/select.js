@@ -1,0 +1,5 @@
+const selected = oEvent.getParameter("selectedKey");
+
+if (selected == "preview") {    
+    buildForm(panPreview, modelSurveyData.getData(), 'preview', modelResponseData, modelResponseData.getData().response);
+}

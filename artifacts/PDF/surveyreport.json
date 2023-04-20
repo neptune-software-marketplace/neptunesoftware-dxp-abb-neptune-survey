@@ -1,0 +1,606 @@
+{
+	"id": "f890bab8-548b-4789-bb68-8e74e60df8b7",
+	"createdAt": "2022-12-15T06:05:12.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"interface": [
+		{
+			"id": "c992f46f-ae6f-423d-9d15-62f73c277e59",
+			"name": "title",
+			"parent": "ebaf811d-397a-4127-b103-2c40367e6e40",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "16002a8d-9487-44b4-8125-78b2ee1419a7",
+			"name": "subTitle",
+			"parent": "ebaf811d-397a-4127-b103-2c40367e6e40",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "ebaf811d-397a-4127-b103-2c40367e6e40",
+			"name": "survey",
+			"parent": "",
+			"description": "",
+			"objectType": "object",
+			"objectName": "survey"
+		},
+		{
+			"id": "c0ad7a60-275e-4cee-c3c8-92b652957965",
+			"name": "number",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "number"
+		},
+		{
+			"id": "23ab40e0-d3b7-45ce-b53f-26aa83550bdd",
+			"name": "type",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "54940516-0dec-4d1a-a45c-51b685bd32a1",
+			"name": "title",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "da2fe675-97e5-4394-dc3e-1519bc2362fb",
+			"name": "subTitle",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "f8560753-b6fa-406f-f064-557726fff664",
+			"name": "imageData",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "e4d9a2c7-db5f-4603-e2ad-1bc914025813",
+			"name": "enableImage",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "boolean"
+		},
+		{
+			"id": "adf28dfe-141c-4e92-ab8b-8a0e9312fb1c",
+			"name": "enableTable",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "boolean"
+		},
+		{
+			"id": "6e913bac-8bdd-436f-9810-8af1e91e1b65",
+			"name": "responsesCount",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "number"
+		},
+		{
+			"id": "598e206a-12d9-4ec6-d5b8-ed693c4671d4",
+			"name": "answer",
+			"parent": "c07138cb-592b-49b6-b7ea-a0778c2b035b",
+			"description": "",
+			"objectType": "string"
+		},
+		{
+			"id": "c07138cb-592b-49b6-b7ea-a0778c2b035b",
+			"name": "responses",
+			"parent": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"description": "",
+			"objectType": "array",
+			"objectName": "responses"
+		},
+		{
+			"id": "c7f32925-d10c-48a7-9552-753c252205f1",
+			"name": "questions",
+			"parent": "",
+			"description": "",
+			"objectType": "array",
+			"objectName": "questions"
+		}
+	],
+	"objects": [
+		{
+			"fieldNo": "466d452f-26c2-4737-88dc-3135bb5e5de6",
+			"fieldName": "Settings",
+			"fieldParent": 0,
+			"fieldPos": 1,
+			"fieldType": "neptune.pdf.settings",
+			"fieldDescription": "PDF Settings",
+			"attributes": [
+				{
+					"attribute": "pageMargins",
+					"grouping": "Page",
+					"value": "[20,40,20,40]",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "d6194d86-8696-4491-b25a-08162f084272",
+			"fieldName": "Content",
+			"fieldParent": 0,
+			"fieldPos": 2,
+			"fieldType": "neptune.pdf.content",
+			"fieldDescription": "Main PDF content area ",
+			"attributes": []
+		},
+		{
+			"fieldNo": "91d554e1-4c9e-4328-d182-96eeb5f1bd1e",
+			"fieldName": "txtTitle",
+			"fieldParent": "d6194d86-8696-4491-b25a-08162f084272",
+			"fieldPos": 3,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/survey/title}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#6c757d",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "left",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bottom",
+					"grouping": "Margin",
+					"value": "5",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fontSize",
+					"grouping": "Font",
+					"value": "28",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "85c47578-8d81-4ce5-fbc9-97e80113866c",
+			"fieldName": "txtSubTitle",
+			"fieldParent": "d6194d86-8696-4491-b25a-08162f084272",
+			"fieldPos": 4,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/survey/subTitle}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#9e9e9e",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "left",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bottom",
+					"grouping": "Margin",
+					"value": "20",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fontSize",
+					"grouping": "Font",
+					"value": "16",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "d6297044-3ec4-4602-f5ef-f92009e30504",
+			"fieldName": "tabQuestions",
+			"fieldParent": "d6194d86-8696-4491-b25a-08162f084272",
+			"fieldPos": 5,
+			"fieldType": "neptune.pdf.table",
+			"dataSource": "{/questions}",
+			"attributes": [
+				{
+					"attribute": "widths",
+					"grouping": "Properties",
+					"value": "['100%']",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "layout",
+					"grouping": "Properties",
+					"value": "noBorders",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "552c4afc-81ce-4845-917a-0479235ea14b",
+			"fieldName": "coloTableRows",
+			"fieldParent": "d6297044-3ec4-4602-f5ef-f92009e30504",
+			"fieldPos": 6,
+			"fieldType": "neptune.pdf.tablerow",
+			"attributes": []
+		},
+		{
+			"fieldNo": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldName": "oStack",
+			"fieldParent": "552c4afc-81ce-4845-917a-0479235ea14b",
+			"fieldPos": 7,
+			"fieldType": "neptune.pdf.stack",
+			"attributes": [
+				{
+					"attribute": "left",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "right",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "top",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bottom",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "pageBreak",
+					"grouping": "Page",
+					"value": "after",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "1468ef06-b347-4878-accf-1a1852acfc77",
+			"fieldName": "txtoTabletitle",
+			"fieldParent": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldPos": 8,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/questions/title}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bold",
+					"grouping": "Font",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#6c757d",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fontSize",
+					"grouping": "Font",
+					"value": "14",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "visible",
+					"grouping": "Properties",
+					"value": "{/survey/show}",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "b3c9fe6d-2475-413f-9f48-df085a4258c5",
+			"fieldName": "txtoTablesubTitle",
+			"fieldParent": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldPos": 9,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/questions/subTitle}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#9e9e9e",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "top",
+					"grouping": "Margin",
+					"value": "5",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bottom",
+					"grouping": "Margin",
+					"value": "20",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fontSize",
+					"grouping": "Font",
+					"value": "12",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "6cb65732-c75b-4bf7-bd22-e2b049bce2b3",
+			"fieldName": "txtoTableResponses",
+			"fieldParent": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldPos": 10,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/questions/responsesCount} RESPONSES",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bold",
+					"grouping": "Font",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#efab01",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "bottom",
+					"grouping": "Margin",
+					"value": "20",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fontSize",
+					"grouping": "Font",
+					"value": "12",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "ab4fbd03-8ae1-4750-fb1a-33431f62b768",
+			"fieldName": "chartImage",
+			"fieldParent": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldPos": 11,
+			"fieldType": "neptune.pdf.image",
+			"imageData": "",
+			"attributes": [
+				{
+					"attribute": "src",
+					"grouping": "Properties",
+					"value": "{/questions/imageData}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "{/questions/imageWidth}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "visible",
+					"grouping": "Properties",
+					"value": "{/questions/enableImage}",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "3cd34249-2cfd-4f8d-93c4-c26af68be0a2",
+			"fieldName": "tabResponses",
+			"fieldParent": "b448c258-191b-4800-80ff-06b107bdbfd8",
+			"fieldPos": 12,
+			"fieldType": "neptune.pdf.table",
+			"dataSource": "{/questions/responses}",
+			"attributes": [
+				{
+					"attribute": "widths",
+					"grouping": "Properties",
+					"value": "[150,'*']",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "layout",
+					"grouping": "Properties",
+					"value": "noBorders",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "top",
+					"grouping": "Margin",
+					"value": "10",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "48cfa06f-5021-461b-c361-bf0ab1565a6b",
+			"fieldName": "oTableRow",
+			"fieldParent": "3cd34249-2cfd-4f8d-93c4-c26af68be0a2",
+			"fieldPos": 13,
+			"fieldType": "neptune.pdf.tablerow",
+			"attributes": []
+		},
+		{
+			"fieldNo": "4d8beaf7-1d2d-43d7-aa1f-e88b4e49d5f0",
+			"fieldName": "txtGroup",
+			"fieldParent": "48cfa06f-5021-461b-c361-bf0ab1565a6b",
+			"fieldPos": 14,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/questions/responses/group}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#6c757d",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "d391c96a-c593-4912-d639-d41ae1307df8",
+			"fieldName": "txtAnswer",
+			"fieldParent": "48cfa06f-5021-461b-c361-bf0ab1565a6b",
+			"fieldPos": 15,
+			"fieldType": "neptune.pdf.text",
+			"attributes": [
+				{
+					"attribute": "text",
+					"grouping": "Properties",
+					"value": "{/questions/responses/text}",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "color",
+					"grouping": "Font",
+					"value": "#6c757d",
+					"script": "",
+					"translation": []
+				}
+			]
+		},
+		{
+			"fieldNo": "f41e316f-1ed8-4c70-b2f1-433b31367830",
+			"fieldName": "Styles",
+			"fieldParent": 0,
+			"fieldPos": 16,
+			"fieldType": "neptune.pdf.styles",
+			"fieldDescription": "Define your custom styles and assign to objects",
+			"attributes": []
+		}
+	],
+	"application": "surveyreport",
+	"description": "",
+	"status": "Active",
+	"disabled": false,
+	"ver": "23.2.20.1556",
+	"publicAccess": false,
+	"enableStorage": false,
+	"dd": "dd = {'pageMargins':[20,40,20,40],'content': [{'text':'{/survey/title}','color':'#6c757d','fontSize':28,'margin':[10,0,0,5]},{'text':'{/survey/subTitle}','color':'#9e9e9e','fontSize':16,'margin':[10,0,0,20]},{'layout':'noBorders','$model':'{/questions}','table': {'widths':['100%'],'body': [[{ 'stack': [{'text':'{/questions/title}','bold':true,'color':'#6c757d','fontSize':14,'visible':'{/survey/show}'},{'text':'{/questions/subTitle}','color':'#9e9e9e','fontSize':12,'margin':[0,5,0,20]},{'text':'{/questions/responsesCount} RESPONSES','bold':true,'color':'#efab01','fontSize':12,'margin':[0,0,0,20]},{ 'image':'','src':'{/questions/imageData}','width':'{/questions/imageWidth}','visible':'{/questions/enableImage}'},,{'layout':'noBorders','margin':[0,10,0,0],'$model':'{/questions/responses}','table': {'widths':[150,'*'],'body': [[{'text':'{/questions/responses/group}','color':'#6c757d'},{'text':'{/questions/responses/text}','color':'#6c757d'}]]}}],'width':'100%','pageBreak':'after','margin':[10,10,10,10]}]]}}],'styles': {}}",
+	"testdata": [
+		"==OBJECT STRING==",
+		"{\r",
+		"    \"survey\": {\r",
+		"        \"title\": \"My First Survey\",\r",
+		"        \"subTitle\": \"Some information\"\r",
+		"    },\r",
+		"    \"questions\": [\r",
+		"        {\r",
+		"            \"type\": \"Text\",\r",
+		"            \"title\": \"1. Some Question\",\r",
+		"            \"subTitle\": \"Some Subtitle\",\r",
+		"            \"imageData\": \"/public/images/nsball.png\",\r",
+		"            \"imageWidth\": 0,\r",
+		"            \"enableImage\": false,\r",
+		"            \"enableTable\": false,\r",
+		"            \"responsesCount\": 22,\r",
+		"            \"responses\": []\r",
+		"        },\r",
+		"              {\r",
+		"            \"type\": \"Text\",\r",
+		"            \"title\": \"2. Some Question\",\r",
+		"            \"subTitle\": \"Some Subtitle\",\r",
+		"            \"imageData\": \"/public/images/nsball.png\",\r",
+		"            \"imageWidth\": 0,\r",
+		"            \"enableImage\": false,\r",
+		"            \"enableTable\": false,\r",
+		"            \"responsesCount\": 22,\r",
+		"            \"responses\": []\r",
+		"        }\r",
+		"    ]\r",
+		"}"
+	],
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

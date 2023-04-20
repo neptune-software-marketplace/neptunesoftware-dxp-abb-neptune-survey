@@ -1,0 +1,26 @@
+{
+	"id": "3acb8c42-1296-4c12-958c-74c04cebec44",
+	"createdAt": "2022-12-19T08:50:56.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f239fdc2-6088-4ce0-9f13-bc22a7da5924",
+			"name": "survey_users",
+			"contextname": "survey_users"
+		}
+	],
+	"apis": [],
+	"name": "UsersDelete",
+	"ver": "22.12.19.951",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

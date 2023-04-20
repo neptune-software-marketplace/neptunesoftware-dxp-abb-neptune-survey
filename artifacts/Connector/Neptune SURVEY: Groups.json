@@ -1,0 +1,17 @@
+{
+	"id": "832cfe9f-f245-4f0c-bfc3-25d540a84d37",
+	"createdAt": "2023-04-05T07:13:53.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "2e6fc249-1913-409d-bd24-92dd79a20dcd",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Neptune SURVEY: Groups",
+	"description": "Neptune SURVEY: Groups",
+	"group": null,
+	"type": "T",
+	"ver": "23.4.5.944",
+	"disabled": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

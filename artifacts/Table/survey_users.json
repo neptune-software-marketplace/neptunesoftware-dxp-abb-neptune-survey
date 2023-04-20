@@ -1,0 +1,33 @@
+{
+	"id": "f239fdc2-6088-4ce0-9f13-bc22a7da5924",
+	"createdAt": "2022-12-19T07:46:25.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "01f30bba-9a84-40d6-fb5e-3c8e5a44a830",
+			"fieldName": "surveyid",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Survey ID",
+			"isNullable": true
+		},
+		{
+			"id": "6d36efe8-b038-4a88-940a-e69e27b69f16",
+			"fieldName": "username",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "User Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_users",
+	"description": "Survey: Users",
+	"ver": "22.12.19.848",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

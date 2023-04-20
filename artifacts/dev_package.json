@@ -1,0 +1,293 @@
+{
+	"id": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"createdAt": "2022-12-09T06:13:11.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey"
+	},
+	"name": "neptunesoftware-survey",
+	"description": "Neptune SURVEY Solution",
+	"ver": "23.4.20.88",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fb2c4ff5-8fe6-4467-a342-3f53e85dcc37",
+			"application": "survey_buildquestions",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "e219876b-b2f4-48cc-b55a-9e6494909e4a",
+			"application": "surveydesigner",
+			"title": "Neptune SURVEY",
+			"description": "Neptune SURVEY"
+		},
+		{
+			"id": "b16e6c5b-9518-485f-9b12-4529e709ff3b",
+			"application": "neptune_survey_forms",
+			"title": "Neptune SURVEY Forms",
+			"description": "Neptune SURVEY Forms"
+		},
+		{
+			"id": "76c4ded7-2b69-4a2f-8cef-b64007a5b12c",
+			"application": "neptune_survey_surveys",
+			"title": "Neptune SURVEY Surveys",
+			"description": "Neptune SURVEY Surveys"
+		},
+		{
+			"id": "37aaeb45-bcc3-4fef-b167-fcdf4961cd04",
+			"application": "surveysubmit",
+			"title": "Neptune SURVEY",
+			"description": "Neptune SURVEY"
+		}
+	],
+	"api": [
+		{
+			"id": "f1d490cb-f81c-453d-b7df-3b1e3055a391",
+			"name": "SurveyPublic",
+			"description": null,
+			"apiGroup": "461c2f81-ce9f-4ae4-815f-1a833e040315"
+		},
+		{
+			"id": "a2b1b0dc-7a0d-4f82-81b6-58a4f991444d",
+			"name": "SurveyClient",
+			"description": null,
+			"apiGroup": "461c2f81-ce9f-4ae4-815f-1a833e040315"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "f239fdc2-6088-4ce0-9f13-bc22a7da5924",
+			"name": "survey_users",
+			"description": "Survey: Users"
+		},
+		{
+			"id": "e7b354dd-f2ba-4f33-bd28-e8873b2cb895",
+			"name": "survey_form",
+			"description": "Survey: Form"
+		},
+		{
+			"id": "d3bbb57a-95de-49e5-967b-e6968bee87ff",
+			"name": "survey_master",
+			"description": "Survey: Master Survey"
+		},
+		{
+			"id": "ad946778-fcf8-4c3d-93e2-7b2982069e92",
+			"name": "survey_status",
+			"description": "Survey: Status"
+		},
+		{
+			"id": "5bb63faf-2758-4243-b3ac-b6f91cfe876b",
+			"name": "survey_receivers",
+			"description": "Survey: Receivers"
+		},
+		{
+			"id": "3ab06987-3697-4f9a-9054-94530aace00f",
+			"name": "survey_response",
+			"description": "Survey: Responses"
+		},
+		{
+			"id": "2e6fc249-1913-409d-bd24-92dd79a20dcd",
+			"name": "survey_groups",
+			"description": "Survey: Receiver Groups"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "eed55519-407f-47ea-9932-76a27da584ec",
+			"name": "GroupGet",
+			"description": null
+		},
+		{
+			"id": "ee7f6b25-10dd-4e65-bc84-b4a40e91a075",
+			"name": "GroupDelete",
+			"description": null
+		},
+		{
+			"id": "ecd07eeb-107b-4eb8-8c44-97ad7a552fc6",
+			"name": "ReceiversSave",
+			"description": null
+		},
+		{
+			"id": "df5f4548-0ed7-4460-8d01-33de96ddc525",
+			"name": "SubmitSurvey",
+			"description": null
+		},
+		{
+			"id": "dd89db3b-ca70-4383-8ca7-f20cb3fcc1fc",
+			"name": "ReceiversGet",
+			"description": null
+		},
+		{
+			"id": "be18c4f2-c2ad-4a1d-af90-9242b9a42d68",
+			"name": "FormDelete",
+			"description": null
+		},
+		{
+			"id": "bcd528cd-83e6-4b98-97a0-13f0d25a6a71",
+			"name": "GroupSave",
+			"description": null
+		},
+		{
+			"id": "b886ecb2-d482-436e-9bf0-229a923a7b95",
+			"name": "ReportGenerate",
+			"description": null
+		},
+		{
+			"id": "b83b1723-a53e-497c-99f1-58f5adf71975",
+			"name": "ReceiversReset",
+			"description": null
+		},
+		{
+			"id": "a1c76b18-ebbc-469a-ba10-379bd16bb173",
+			"name": "FormList",
+			"description": null
+		},
+		{
+			"id": "796a0aa9-8c84-4bda-b288-d097baf8f925",
+			"name": "SurveySave",
+			"description": null
+		},
+		{
+			"id": "6358f12a-e270-43b3-b994-697d81988160",
+			"name": "FormSave",
+			"description": null
+		},
+		{
+			"id": "5fde2d36-26b1-4308-bd94-0210a0d1bbfc",
+			"name": "SurveyDelete",
+			"description": null
+		},
+		{
+			"id": "3f0d0006-2fdd-47d6-9329-09073b876caf",
+			"name": "ReceiversDelete",
+			"description": null
+		},
+		{
+			"id": "3acb8c42-1296-4c12-958c-74c04cebec44",
+			"name": "UsersDelete",
+			"description": null
+		},
+		{
+			"id": "2c2b94ce-b82b-4282-9db7-f18df8c4f355",
+			"name": "SurveyGet",
+			"description": null
+		},
+		{
+			"id": "2c0c7e7e-337e-4bae-b0a2-32166e1f2aee",
+			"name": "MasterData",
+			"description": null
+		},
+		{
+			"id": "237bbe3d-9d79-4584-8037-9716da945625",
+			"name": "StartSurvey",
+			"description": null
+		},
+		{
+			"id": "17081f73-234b-4aa3-9c2f-9fa7a9500bc9",
+			"name": "FormGet",
+			"description": null
+		},
+		{
+			"id": "0fa1cc17-c1ab-4c81-890b-63c13224e2b5",
+			"name": "UsersSave",
+			"description": null
+		},
+		{
+			"id": "00bd1d53-6578-4dfd-9eee-f6d98ac6553a",
+			"name": "ReceiversSendMail",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+			"name": "Survey",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [
+		{
+			"id": "f890bab8-548b-4789-bb68-8e74e60df8b7",
+			"application": "surveyreport",
+			"description": ""
+		}
+	],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "78fec98c-5f76-4cdb-beab-415dd0e969fe",
+			"name": "neptune_survey_group_detail",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4f39a79b-9194-4847-9bde-ebb42612f643",
+			"name": "neptune_survey_group_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "461c2f81-ce9f-4ae4-815f-1a833e040315",
+			"name": "Survey",
+			"description": null
+		}
+	],
+	"tile": [
+		{
+			"id": "afefc1c6-64dd-4776-b078-465205400a75",
+			"description": "Define forms for your survey",
+			"name": "SURVEY Forms"
+		},
+		{
+			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
+			"description": "Create survey based on form template",
+			"name": "SURVEY Survey"
+		},
+		{
+			"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
+			"description": "Define receiver grops for your survey",
+			"name": "SURVEY Groups"
+		}
+	],
+	"category": [
+		{
+			"id": "03b2eb03-2ebf-4794-9570-51f27033f94c",
+			"description": null,
+			"name": "Neptune SURVEY"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "cdccf4de-54cd-4ffb-b863-8a240a12971b",
+			"name": "Survey Invitation Template",
+			"description": "{=surveyName}"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "832cfe9f-f245-4f0c-bfc3-25d540a84d37",
+			"name": "Neptune SURVEY: Groups",
+			"description": "Neptune SURVEY: Groups"
+		}
+	],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

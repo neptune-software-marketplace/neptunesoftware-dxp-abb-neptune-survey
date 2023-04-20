@@ -1,0 +1,36 @@
+{
+	"id": "796a0aa9-8c84-4bda-b288-d097baf8f925",
+	"createdAt": "2022-12-09T12:17:18.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "d3bbb57a-95de-49e5-967b-e6968bee87ff",
+			"name": "survey_master",
+			"contextname": "survey_master"
+		},
+		{
+			"id": "5bb63faf-2758-4243-b3ac-b6f91cfe876b",
+			"name": "survey_receivers",
+			"contextname": "survey_receivers"
+		},
+		{
+			"id": "3ab06987-3697-4f9a-9054-94530aace00f",
+			"name": "survey_response",
+			"contextname": "survey_response"
+		}
+	],
+	"apis": [],
+	"name": "SurveySave",
+	"ver": "22.12.9.1419",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

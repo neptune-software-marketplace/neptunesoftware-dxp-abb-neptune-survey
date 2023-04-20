@@ -1,0 +1,5 @@
+const selected = oEvent.getParameter("selectedKey");
+
+if (selected === "preview" || selected === "response") {
+    formBuilder.buildForm();
+}

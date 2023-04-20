@@ -1,0 +1,26 @@
+{
+	"id": "0fa1cc17-c1ab-4c81-890b-63c13224e2b5",
+	"createdAt": "2022-12-19T08:15:27.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f239fdc2-6088-4ce0-9f13-bc22a7da5924",
+			"name": "survey_users",
+			"contextname": "survey_users"
+		}
+	],
+	"apis": [],
+	"name": "UsersSave",
+	"ver": "23.4.11.1410",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

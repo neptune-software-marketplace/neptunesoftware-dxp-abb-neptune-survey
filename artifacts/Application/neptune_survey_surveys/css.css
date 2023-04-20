@@ -1,0 +1,148 @@
+*,
+::after,
+::before {
+    box-sizing: content-box;
+}
+
+.nbsInput .form-control,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.root {
+    --formBackground: "";
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.nbsInput.sapMColumnHeaderContent {
+    width: 100%;
+}
+
+.nbsText {
+    white-space: normal;
+}
+
+.alert {
+    border-radius: 0.75rem;
+}
+
+html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {
+    outline: none;
+}
+
+.sapFDynamicPageTitle {
+    padding: 0.5rem 0.5rem 0.5rem 1.2rem;
+}
+
+.nepFlexWrap .sapFDynamicPageTitleMain {
+    flex-wrap: wrap !important;
+}
+
+.nepFlexLeft .sapFDynamicPageTitleMainInner {
+    width: 100% !important;
+}
+
+.nepNoScroll .sapMPanelContent {
+    overflow: hidden;
+}
+
+.nepForm {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formBackground {
+    background-image: var(--formBackground);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.formNoPadding .sapMListTblHighlightCol + .sapMListTblHeaderCell,
+.formNoPadding .sapMListTblHighlightCell + .sapMListTblCell {
+    padding: 0;
+}
+
+.formNoBorder.sapMTB.sapMTBStandard {
+    border: none !important;
+}
+
+.formNoBorder .sapMITBContent {
+    border: none !important;
+}
+
+.formBorder {
+    border: 1px solid var(--nepBorderColor);
+}
+
+// .highcharts-container {
+//     background: white !important;
+// }
+
+// .formChart {
+//     background: white !important;
+// }
+
+.formNoBorderRadius {
+    border-radius: 0;
+}
+
+.formToolbar.sapMTB.sapMTBStandard {
+    border-radius: 6px;
+    border: 1px solid var(--nepBorderColor);
+}
+
+.sapMPanelWrappingDiv.sapMPanelWrappingDivExpanded,
+.sapMPanelWrappingDivTb.sapMPanelWrappingDivTbExpanded {
+    border-bottom: 0.0625rem solid var(--nepBorderColor);
+}
+
+.sapMPanel > .sapMPanelHdr,
+.sapMPanelWrappingDiv,
+.sapMPanelWrappingDivTb {
+    border-bottom: none;
+}
+
+.sapMLIBFocusable:focus {
+    outline: none;
+}
+
+/* PREVIEW + BOOTSTRAP FIX*/
+
+.sapMRI {
+    box-sizing: content-box;
+}
+
+.sapMRISel {
+    box-sizing: content-box;
+}
+
+.sapMRISelector {
+    box-sizing: content-box;
+}
+
+.sapMRIHov {
+    box-sizing: content-box;
+}
+
+.sapMRIUnselWrapper {
+    box-sizing: content-box;
+}
+
+.invalidResponse {
+    border: 1px solid red;
+}
+
+/* IFRAMES */
+
+#iframeRun {
+    border: none;
+    height: 100%;
+    width: 100%;
+}

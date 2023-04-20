@@ -1,0 +1,7 @@
+const deleteItem = oEvent.getParameter("listItem");
+const context = deleteItem.getBindingContext("SurveyData");
+const data = context.getObject();
+
+let questionIndex = context.sPath.split("/")[2];
+ModelData.Delete(modelSurveyData.oData.questions[questionIndex].items, "id", data.id);
+modelSurveyData.refresh();

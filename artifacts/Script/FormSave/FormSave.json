@@ -1,0 +1,26 @@
+{
+	"id": "6358f12a-e270-43b3-b994-697d81988160",
+	"createdAt": "2022-12-09T06:53:50.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "e7b354dd-f2ba-4f33-bd28-e8873b2cb895",
+			"name": "survey_form",
+			"contextname": "survey_form"
+		}
+	],
+	"apis": [],
+	"name": "FormSave",
+	"ver": "22.12.9.1259",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "28f52a8c-9bcc-46ba-be8a-3527792f199a",
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+}

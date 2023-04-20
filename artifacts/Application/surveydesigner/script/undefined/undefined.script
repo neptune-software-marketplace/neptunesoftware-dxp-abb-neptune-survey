@@ -1,0 +1,230 @@
+:root {
+  --nepBrandYellow: #f0af24;
+  --nepBrandGreen: #008299;
+  --nepBrandBlue: #003e52;
+  --nepShellTopColor: var(--nepBrandYellow);
+  --nepDividerColor: var(--nepBrandYellow);
+  --nepStandardPadding: 1rem;
+  --nepInitImageUrl: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMTIiIGhlaWdodD0iMjEyIiB2aWV3Qm94PSIwIDAgNjAuNjIgNjAuNjkiPjxkZWZzPjxzdHlsZT4ubmVwU1ZHTG9nb1Jpbmd7ZmlsbDp0cmFuc3BhcmVudDt9Lm5lcFNWR0xvZ29QbGFuZXR7ZmlsbDojZjZiMjIxO308L3N0eWxlPjwvZGVmcz48Y2lyY2xlIGNsYXNzPSJuZXBTVkdMb2dvUmluZyIgY3g9IjMyLjcxIiBjeT0iMzMuOTQiIHI9IjIxLjI3Ii8+PHBhdGggY2xhc3M9Im5lcFNWR0xvZ29QbGFuZXQiIGQ9Ik01OS4yNCw2OC4zQTEyLjIsMTIuMiwwLDEsMSw3MS40Miw1Ni4xLDEyLjIsMTIuMiwwLDAsMSw1OS4yNCw2OC4zTTUxLjQ3LDI1YTMwLjM1LDMwLjM1LDAsMSwwLDMwLjMsMzAuMzVBMzAuMzMsMzAuMzMsMCwwLDAsNTEuNDcsMjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMS4xNiAtMjQuOTgpIi8+PHBhdGggY2xhc3M9Im5lcFNWR0xvZ29QbGFuZXQiIGQ9Ik01OS4yNCw0Ni4wNUExMC4wNiwxMC4wNiwwLDEsMCw2OS4yOSw1Ni4xLDEwLjA2LDEwLjA2LDAsMCwwLDU5LjI0LDQ2LjA1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjEuMTYgLTI0Ljk4KSIvPjwvc3ZnPg==);
+  --nepCanDrop: #63be6363;
+  --nepCantDrop: #be636363;
+  --nepBoxShadow: 0 0 0.125rem 0 rgba(85, 107, 130, 0.72);
+  --nepBorderWidth: 1px;
+  --nepBorder: var(--nepBorderWidth) solid #ced4da;
+  --xsmall: 450px;
+  --small: 780px;
+  --medium: 1180px;
+  --large: 1480px;
+  --xlarge: 1880px;
+  --xxlarge: 2380px;
+  --xxxlarge: 2860px;
+  --gridGap: 0px;
+  --gridHeight: 170px;
+  --grid1: 100%;
+  --grid2: 50%;
+  --grid3: 33.3333%;
+  --grid4: 25%;
+  --grid5: 20%;
+  --grid6: 16.6666%;
+  --grid8: 12.5%;
+  --grid10: 10%;
+  --grid12: 8.3333%;
+  --grid14: 7.1428%;
+  --cardMargin: 0.25rem;
+}
+
+*,
+::after,
+::before {
+  box-sizing: content-box;
+}
+
+.nbsInput .form-control,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.root {
+  --formBackground: "" ;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.nbsInput.sapMColumnHeaderContent {
+  width: 100%;
+}
+
+.nbsText {
+  white-space: normal;
+}
+
+.alert {
+  border-radius: 0.75rem;
+}
+
+html.sap-desktop .sapFDynamicPageTitle.sapFDynamicPageTitleFocus {
+  outline: none;
+}
+
+.sapFDynamicPageTitle {
+  padding: 0.5rem 0.5rem 0.5rem 1.2rem;
+}
+
+.nepFlexWrap .sapFDynamicPageTitleMain {
+  flex-wrap: wrap !important;
+}
+
+.nepFlexLeft .sapFDynamicPageTitleMainInner {
+  width: 100% !important;
+}
+
+.nepNoScroll .sapMPanelContent {
+  overflow: hidden;
+}
+
+.nepForm {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formBackground {
+  background-image: var(--formBackground);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.formNoPadding .sapMListTblHighlightCol + .sapMListTblHeaderCell,
+.formNoPadding .sapMListTblHighlightCell + .sapMListTblCell {
+  padding: 0;
+}
+
+.formNoBorder.sapMTB.sapMTBStandard {
+  border: none !important;
+}
+
+.formNoBorder .sapMITBContent {
+  border: none !important;
+}
+
+.formBorder {
+  border: 1px solid #ced4da;
+}
+
+.highcharts-container {
+  background: white !important;
+}
+
+.formChart {
+  background: white !important;
+}
+
+.formNoBorderRadius {
+  border-radius: 0;
+}
+
+.formToolbar.sapMTB.sapMTBStandard {
+  border-radius: 6px;
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+
+.sapMPanelWrappingDiv.sapMPanelWrappingDivExpanded,
+.sapMPanelWrappingDivTb.sapMPanelWrappingDivTbExpanded {
+  border-bottom: 0.0625rem solid #ced4da;
+}
+
+.sapMPanel > .sapMPanelHdr,
+.sapMPanelWrappingDiv,
+.sapMPanelWrappingDivTb {
+  border-bottom: none;
+}
+
+.sapMLIBFocusable:focus {
+  outline: none;
+}
+
+/* PREVIEW + BOOTSTRAP FIX*/
+.sapMRI {
+  box-sizing: content-box;
+}
+
+.sapMRISel {
+  box-sizing: content-box;
+}
+
+.sapMRISelector {
+  box-sizing: content-box;
+}
+
+.sapMRIHov {
+  box-sizing: content-box;
+}
+
+.sapMRIUnselWrapper {
+  box-sizing: content-box;
+}
+
+.invalidResponse {
+  border: 1px solid red;
+}
+
+/* IFRAMES */
+#iframeRun {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+/* NEPTUNE CSS */
+.nepPageRight,
+.nepContentPanelFull.nepPageRight,
+.nepContentPanelTop.nepPageRight,
+.nepContentPanelBottom.nepPageRight {
+  margin-right: var(--nepStandardPadding);
+}
+
+.nepPageLeft,
+.nepContentPanelFull.nepPageLeft,
+.nepContentPanelTop.nepPageLeft,
+.nepContentPanelBottom.nepPageLeft {
+  margin-left: var(--nepStandardPadding);
+}
+
+.nepContentWrapper {
+  padding: var(--nepStandardPadding);
+}
+
+.nepContentPanel {
+  width: 100%;
+  border: var(--nepBorder);
+}
+
+.nepContentPanel > .sapMPanelContent > .sapMOHROuter > .sapMOHR {
+  box-shadow: none;
+}
+
+.nepContentPanelFull {
+  margin: var(--nepStandardPadding) 0;
+  height: calc(100% - 2 * var(--nepStandardPadding)) !important;
+}
+
+.nepContentPanelTop {
+  margin: var(--nepStandardPadding) 0 0 0;
+  height: calc(100% - var(--nepStandardPadding)) !important;
+}
+
+.nepContentPanelCenter {
+  margin: 0;
+  height: 100% !important;
+}
+
+.nepContentPanelBottom {
+  margin: 0 0 var(--nepStandardPadding) 0;
+  height: calc(100% - var(--nepStandardPadding)) !important;
+}

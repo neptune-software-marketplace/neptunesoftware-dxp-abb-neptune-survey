@@ -1,0 +1,49 @@
+{
+	"id": "3ab06987-3697-4f9a-9054-94530aace00f",
+	"createdAt": "2022-12-09T06:25:10.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "3ae0df9c-13b7-48dc-ab30-f0828ad49143",
+			"fieldName": "surveyid",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Survey ID",
+			"isNullable": true
+		},
+		{
+			"id": "259bc035-e3a2-4039-c579-ba94e0f0b70e",
+			"fieldName": "groupid",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Group ID",
+			"isNullable": true
+		},
+		{
+			"id": "46c8eb09-db81-4883-993a-a6329c77b07c",
+			"fieldName": "email",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "eMeil",
+			"isNullable": true
+		},
+		{
+			"id": "340bd643-37a2-4f6b-a291-9ad7914a35c5",
+			"fieldName": "response",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Response"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "survey_response",
+	"description": "Survey: Responses",
+	"ver": "22.12.9.1555",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"rolesRead": [],
+	"rolesWrite": []
+}
