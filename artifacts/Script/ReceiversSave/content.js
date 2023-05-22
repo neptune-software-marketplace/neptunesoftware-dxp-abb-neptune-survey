@@ -11,7 +11,7 @@ for (let i = 0; i < req.body.length; i++) {
         email: email
     });
 
-    if (!found) {
+    if (!found && email) {
         receivers.push({
             email: email,
             surveyid: req.query.id,

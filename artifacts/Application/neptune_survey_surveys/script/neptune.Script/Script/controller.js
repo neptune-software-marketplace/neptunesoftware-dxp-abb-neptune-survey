@@ -247,7 +247,17 @@ const controller = {
     },
 
     addReceivers: function (data, groupid) {
-        const emails = data.split(";");
+        data = data.replace(/\s+/g, "");
+        let emails = data.split(";");
+
+        emails = emails.filter((item, index) => {
+            return (
+                index ===
+                emails.findIndex((obj) => {
+                    return JSON.stringify(obj) === JSON.stringify(item);
+                })
+            );
+        });
 
         apiReceiversSave({
             data: emails,

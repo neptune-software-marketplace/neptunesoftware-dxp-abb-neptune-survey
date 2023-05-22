@@ -27,8 +27,8 @@ if (survey && receiver) {
     // Response
     response.createdBy = "system";
     response.updatedBy = "system";
-    response.createdAt = new Date("11-07-2011");
-    response.updatedAt = new Date("11-07-2011");
+    response.createdAt = new Date("11-07-2011").getTime();
+    response.updatedAt = new Date("11-07-2011").getTime();
 
     await entityManager.save("survey_response", response);
 

@@ -213,6 +213,7 @@ const controller = {
 
                 modelSurveyData.setData(data);
                 cockpitUtils.dataSaved = modelSurveyData.getJSON();
+                cockpitUtils.toggleEdit(true);
 
                 sap.m.MessageToast.show("Form Saved");
 
@@ -239,6 +240,9 @@ const controller = {
                         toolStartUpdate.firePress();
                         sap.m.MessageToast.show("Form Deleted");
                         oApp.backToPage(oPageStart);
+                        
+                        // Cockpit Action
+                        sap.n.Planet9.setToolbarButton(false);
                     });
                 }
             },

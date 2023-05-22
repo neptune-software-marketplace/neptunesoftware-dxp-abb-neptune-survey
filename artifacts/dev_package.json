@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-survey",
 	"description": "Neptune SURVEY Solution",
-	"ver": "23.4.20.88",
+	"ver": "23.5.22.845",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -242,12 +242,12 @@
 	"tile": [
 		{
 			"id": "afefc1c6-64dd-4776-b078-465205400a75",
-			"description": "Create Survey templates with No-Code",
-			"name": "SURVEY Designer"
+			"description": "Define forms for your survey",
+			"name": "SURVEY Forms"
 		},
 		{
 			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
-			"description": "Create Survey from a template",
+			"description": "Create survey based on form template",
 			"name": "SURVEY Survey"
 		},
 		{
@@ -265,13 +265,7 @@
 	],
 	"launchpad": [],
 	"certificates": [],
-	"role": [
-		{
-			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
-			"name": "neptunesoftware-survey",
-			"description": null
-		}
-	],
+	"role": [],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [

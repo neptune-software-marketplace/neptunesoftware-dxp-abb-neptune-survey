@@ -1,0 +1,24 @@
+sap.n.Planet9.openUsers(
+    "Multi",
+    function (users) {
+        let emails = inEmails.getValue() || "";
+        let sep = emails === "" ? "" : ";";
+
+        if (users) {
+            users.forEach(function (user) {
+                if (!user.selected) return;
+
+                let exists = ModelData.FindFirst(modelSurveyMaster.oData.receivers, "email", user.email);
+
+                if (!exists && user.email) {
+                    emails += sep + user.email;
+                    sep = ";";
+                }
+            });
+
+            inEmails.setValue(emails);
+        }
+    },
+    null,
+    true
+);

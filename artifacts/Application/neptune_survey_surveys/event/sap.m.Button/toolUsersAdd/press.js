@@ -11,7 +11,7 @@ sap.n.Planet9.openUsers(
 
                 if (!exists) {
                     newUsers.push(user);
-                }                
+                }
             });
         }
 
@@ -20,3 +20,4 @@ sap.n.Planet9.openUsers(
     null,
     true
 );
+

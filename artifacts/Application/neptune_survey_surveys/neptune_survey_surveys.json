@@ -306,7 +306,7 @@
 																		{
 																			"attribute": "text",
 																			"grouping": "Properties",
-																			"value": "Create survey based on a template",
+																			"value": "Create survey based on form template",
 																			"script": "",
 																			"translation": []
 																		},
@@ -4611,7 +4611,7 @@
 								{
 									"attribute": "title",
 									"grouping": "Properties",
-									"value": "Select a Template",
+									"value": "Select Form",
 									"script": "",
 									"translation": []
 								},
@@ -5583,7 +5583,7 @@
 								{
 									"attribute": "contentHeight",
 									"grouping": "Properties",
-									"value": "700px",
+									"value": "750px",
 									"script": "",
 									"translation": []
 								},
@@ -5790,6 +5790,68 @@
 													"data": []
 												}
 											]
+										},
+										{
+											"fieldNo": "922b4baa-78d1-40e5-aabe-6b22b3d4888e",
+											"fieldName": "toolReceiversAddUsers",
+											"fieldParent": "3573b398-7b2e-41ab-8025-93694d4a3c79",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Attention",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Add from user repository",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Add from Users",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBegin",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "enabled",
+													"grouping": "Properties",
+													"value": "{appControl>/enableEdit}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "enableCompactMode",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/toolReceiversAddUsers/press.script",
+													"translation": []
+												}
+											],
+											"data": []
 										}
 									]
 								}
@@ -6373,7 +6435,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.20.1238",
+	"ver": "23.5.12.725",
 	"application": "neptune_survey_surveys",
 	"title": "Neptune SURVEY Surveys",
 	"description": "Neptune SURVEY Surveys",

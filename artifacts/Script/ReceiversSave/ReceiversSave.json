@@ -13,7 +13,7 @@
 	],
 	"apis": [],
 	"name": "ReceiversSave",
-	"ver": "22.12.9.1438",
+	"ver": "23.5.12.725",
 	"description": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
