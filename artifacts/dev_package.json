@@ -6,8 +6,8 @@
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey"
 	},
 	"name": "neptunesoftware-survey",
-	"description": "Neptune SURVEY Solution",
-	"ver": "23.5.22.845",
+	"description": "Surveys",
+	"ver": "23.8.31.1336",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -242,30 +242,36 @@
 	"tile": [
 		{
 			"id": "afefc1c6-64dd-4776-b078-465205400a75",
-			"description": "Define forms for your survey",
-			"name": "SURVEY Forms"
+			"description": "Define question templates for your surveys",
+			"name": "Survey Designer"
 		},
 		{
 			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
-			"description": "Create survey based on form template",
-			"name": "SURVEY Survey"
+			"description": "Distribute surveys based on question templates",
+			"name": "Surveys Publish"
 		},
 		{
 			"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
-			"description": "Define receiver grops for your survey",
-			"name": "SURVEY Groups"
+			"description": "Define receiver groups for your survey",
+			"name": "Surveys Groups"
 		}
 	],
 	"category": [
 		{
 			"id": "03b2eb03-2ebf-4794-9570-51f27033f94c",
 			"description": null,
-			"name": "Neptune SURVEY"
+			"name": "Surveys"
 		}
 	],
 	"launchpad": [],
 	"certificates": [],
-	"role": [],
+	"role": [
+		{
+			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"name": "neptune-survey",
+			"description": null
+		}
+	],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [
@@ -281,8 +287,8 @@
 	"connector": [
 		{
 			"id": "832cfe9f-f245-4f0c-bfc3-25d540a84d37",
-			"name": "Neptune SURVEY: Groups",
-			"description": "Neptune SURVEY: Groups"
+			"name": "Surveys: Groups",
+			"description": "Surveys: Groups"
 		}
 	],
 	"events": [],

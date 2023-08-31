@@ -9,9 +9,9 @@
 			"id": "0f1a7450-e263-40a3-89a5-e5f3f6ead529"
 		}
 	},
-	"title": "Survey",
+	"title": "Publish",
 	"subTitle": "",
-	"description": "Create survey based on form template",
+	"description": "Distribute surveys based on question templates",
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
@@ -60,9 +60,9 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.4.6.941",
+	"ver": "23.8.31.1532",
 	"actionWebApp": "",
-	"name": "SURVEY Survey",
+	"name": "Surveys Publish",
 	"cardWidth": null,
 	"cardHeight": null,
 	"cardHeightFit": false,
@@ -81,5 +81,11 @@
 	"actionType": "A",
 	"cockpitTile": true,
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
-	"roles": []
+	"roles": [
+		{
+			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"name": "neptune-survey",
+			"ver": "23.8.31.1336"
+		}
+	]
 }

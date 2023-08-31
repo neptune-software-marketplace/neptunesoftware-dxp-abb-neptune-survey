@@ -7,11 +7,11 @@
 		"hasDocumentation": false
 	},
 	"documentation": {},
-	"name": "Neptune SURVEY: Groups",
-	"description": "Neptune SURVEY: Groups",
+	"name": "Surveys: Groups",
+	"description": "Surveys: Groups",
 	"group": null,
 	"type": "T",
-	"ver": "23.4.5.944",
+	"ver": "23.8.31.1511",
 	"disabled": false,
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
 }

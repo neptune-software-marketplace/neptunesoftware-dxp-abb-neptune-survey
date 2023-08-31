@@ -3,16 +3,12 @@
 	"createdAt": "2023-04-05T07:28:12.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"translation": [],
-	"tilesOrder": [
-		"afefc1c6-64dd-4776-b078-465205400a75",
-		"3b99f525-568a-41e4-84b3-c0a25859ba2b",
-		"648df85c-a33d-4c11-a562-8bfc84ac7f66"
-	],
+	"tilesOrder": [],
 	"tilegroupsOrder": [],
 	"configMessage": {
 		"type": "None"
 	},
-	"title": "Neptune SURVEY",
+	"title": "Surveys",
 	"subTitle": null,
 	"description": null,
 	"titleAlignment": null,
@@ -31,7 +27,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.4.6.943",
+	"ver": "23.8.31.1517",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -45,7 +41,7 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": null,
-	"name": "Neptune SURVEY",
+	"name": "Surveys",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
 	"cardPerRow": null,
@@ -64,26 +60,13 @@
 	"roleTag": null,
 	"cockpitTileGroup": true,
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
-	"roles": [],
-	"tiles": [
+	"roles": [
 		{
-			"id": "afefc1c6-64dd-4776-b078-465205400a75",
-			"name": "SURVEY Forms",
-			"title": "Forms",
-			"ver": "23.4.6.942"
-		},
-		{
-			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
-			"name": "SURVEY Survey",
-			"title": "Survey",
-			"ver": "23.4.6.941"
-		},
-		{
-			"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
-			"name": "SURVEY Groups",
-			"title": "Groups",
-			"ver": "23.4.5.929"
+			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"name": "neptune-survey",
+			"ver": "23.8.31.1336"
 		}
 	],
+	"tiles": [],
 	"tilegroups": []
 }

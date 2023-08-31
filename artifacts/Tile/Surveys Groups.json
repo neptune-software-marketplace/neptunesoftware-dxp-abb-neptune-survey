@@ -1,21 +1,21 @@
 {
-	"id": "afefc1c6-64dd-4776-b078-465205400a75",
-	"createdAt": "2023-04-06T07:42:55.000Z",
+	"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
+	"createdAt": "2023-04-05T07:29:11.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "0f1a7450-e263-40a3-89a5-e5f3f6ead529"
+			"id": "4f39a79b-9194-4847-9bde-ebb42612f643"
 		}
 	},
-	"title": "Forms",
-	"subTitle": "",
-	"description": "Define forms for your survey",
+	"title": "Groups",
+	"subTitle": null,
+	"description": "Define receiver groups for your survey",
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "neptune_survey_forms",
+	"actionApplication": "",
 	"actionParameters": null,
 	"actionURL": "",
 	"openDialog": false,
@@ -25,7 +25,7 @@
 	"frameType": null,
 	"type": "",
 	"image": null,
-	"icon": "sap-icon://form",
+	"icon": "sap-icon://group",
 	"backgroundType": null,
 	"backgroundColor": null,
 	"backgroundShade": null,
@@ -38,7 +38,7 @@
 	"hideTileTablet": false,
 	"enableDocumentation": false,
 	"navObject": "survey",
-	"navAction": "form",
+	"navAction": "groups",
 	"dialogWidth": null,
 	"dialogHeight": null,
 	"tileApplicationStyleClass": null,
@@ -60,9 +60,9 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.4.6.942",
+	"ver": "23.8.31.1516",
 	"actionWebApp": "",
-	"name": "SURVEY Forms",
+	"name": "Surveys Groups",
 	"cardWidth": null,
 	"cardHeight": null,
 	"cardHeightFit": false,
@@ -78,8 +78,14 @@
 	"bodyHeight": null,
 	"roleTag": null,
 	"sapICFNode": null,
-	"actionType": "A",
+	"actionType": "F",
 	"cockpitTile": true,
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
-	"roles": []
+	"roles": [
+		{
+			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"name": "neptune-survey",
+			"ver": "23.8.31.1336"
+		}
+	]
 }
