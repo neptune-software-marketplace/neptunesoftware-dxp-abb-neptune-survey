@@ -3,7 +3,11 @@
 	"createdAt": "2023-04-05T07:28:12.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"translation": [],
-	"tilesOrder": [],
+	"tilesOrder": [
+		"afefc1c6-64dd-4776-b078-465205400a75",
+		"3b99f525-568a-41e4-84b3-c0a25859ba2b",
+		"648df85c-a33d-4c11-a562-8bfc84ac7f66"
+	],
 	"tilegroupsOrder": [],
 	"configMessage": {
 		"type": "None"
@@ -27,7 +31,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.8.31.1517",
+	"ver": "23.8.31.1553",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -62,11 +66,30 @@
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
 	"roles": [
 		{
-			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
 			"name": "neptune-survey",
 			"ver": "23.8.31.1336"
 		}
 	],
-	"tiles": [],
+	"tiles": [
+		{
+			"id": "afefc1c6-64dd-4776-b078-465205400a75",
+			"name": "Survey Designer",
+			"title": "Designer",
+			"ver": "23.8.31.1550"
+		},
+		{
+			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
+			"name": "Surveys Publish",
+			"title": "Publish",
+			"ver": "23.8.31.1550"
+		},
+		{
+			"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
+			"name": "Surveys Groups",
+			"title": "Groups",
+			"ver": "23.8.31.1550"
+		}
+	],
 	"tilegroups": []
 }

@@ -60,7 +60,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.8.31.1516",
+	"ver": "23.8.31.1550",
 	"actionWebApp": "",
 	"name": "Surveys Groups",
 	"cardWidth": null,
@@ -83,7 +83,7 @@
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
 	"roles": [
 		{
-			"id": "c6086f01-56ac-43b7-879b-7ba6e910686b",
+			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
 			"name": "neptune-survey",
 			"ver": "23.8.31.1336"
 		}
