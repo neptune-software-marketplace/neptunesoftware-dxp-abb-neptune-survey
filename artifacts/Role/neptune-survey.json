@@ -5,5 +5,7 @@
 	"name": "neptune-survey",
 	"description": null,
 	"ver": "23.8.31.1336",
-	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+	"isGlobalAdmin": false,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
+	"acl": []
 }

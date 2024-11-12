@@ -643,7 +643,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -657,12 +657,14 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
 	"apis": [
 		{
 			"id": "f1d490cb-f81c-453d-b7df-3b1e3055a391",
 			"name": "SurveyPublic",
 			"ver": "22.12.9.158"
 		}
-	],
-	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+	]
 }

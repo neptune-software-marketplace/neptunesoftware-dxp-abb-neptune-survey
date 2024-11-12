@@ -4560,41 +4560,6 @@
 											"data": []
 										}
 									]
-								},
-								{
-									"fieldNo": "32d0870c-10d5-495a-8b7d-d86cb797e2d6",
-									"fieldName": "panPDF",
-									"fieldParent": "52d46847-cc22-4c41-a61e-c8f99dcdd7f0",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"customComponent": false,
-									"disabled": true,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassPadding",
-											"grouping": "Properties",
-											"value": "sapUiNoContentPadding",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "height",
-											"grouping": "Properties",
-											"value": "100%",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "backgroundDesign",
-											"grouping": "Properties",
-											"value": "Transparent",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": []
 								}
 							]
 						},
@@ -6460,7 +6425,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -6474,12 +6439,14 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": 200,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
 	"apis": [
 		{
 			"id": "a2b1b0dc-7a0d-4f82-81b6-58a4f991444d",
 			"name": "SurveyClient",
 			"ver": "23.4.6.921"
 		}
-	],
-	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1"
+	]
 }

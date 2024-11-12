@@ -3,12 +3,17 @@
 	"createdAt": "2022-12-09T06:13:11.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey"
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey",
+		"branch": "v24"
 	},
 	"name": "neptunesoftware-survey",
 	"description": "Surveys",
 	"ver": "23.8.31.1336",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
 	"apps": [
 		{
 			"id": "fb2c4ff5-8fe6-4467-a342-3f53e85dcc37",
@@ -256,6 +261,7 @@
 			"name": "Surveys Groups"
 		}
 	],
+	"tile_layout": [],
 	"category": [
 		{
 			"id": "03b2eb03-2ebf-4794-9570-51f27033f94c",
@@ -263,7 +269,9 @@
 			"name": "Surveys"
 		}
 	],
+	"tilegroup_layout": [],
 	"launchpad": [],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [
 		{
@@ -292,8 +300,8 @@
 		}
 	],
 	"events": [],
-	"media_library": [],
 	"code_snippets": [],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": []
 }
