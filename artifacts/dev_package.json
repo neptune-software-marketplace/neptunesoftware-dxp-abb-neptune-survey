@@ -8,11 +8,11 @@
 	},
 	"name": "neptunesoftware-survey",
 	"description": "Surveys",
-	"ver": "23.8.31.1336",
+	"ver": "24.11.12.1159",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
-	"excludeTemplateFiles": false,
+	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
 		{
