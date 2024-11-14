@@ -6,9 +6,9 @@
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey",
 		"branch": "v24"
 	},
-	"name": "neptunesoftware-survey",
+	"name": "neptunesoftware-dxp-abb-neptune-survey",
 	"description": "Surveys",
-	"ver": "24.11.12.1159",
+	"ver": "24.11.14.1319",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": "24.10.0-rc.3",
