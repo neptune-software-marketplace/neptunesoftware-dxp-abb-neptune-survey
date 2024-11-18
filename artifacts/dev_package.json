@@ -8,10 +8,10 @@
 	},
 	"name": "neptunesoftware-dxp-abb-neptune-survey",
 	"description": "Surveys",
-	"ver": "24.11.14.1319",
+	"ver": "24.11.18.1447",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": "24.10.0-rc.3",
+	"oeVersion": "24.10.0",
 	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [

@@ -2,6 +2,8 @@
 	"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
 	"createdAt": "2023-04-05T07:29:11.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"lightTileLayouts": [],
+	"darkTileLayouts": [],
 	"translation": [],
 	"storeItem": {},
 	"settings": {
@@ -52,7 +54,6 @@
 	"styleClass": null,
 	"titleAlignment": null,
 	"titleLevel": null,
-	"subTitleLevel": null,
 	"dataUrl": null,
 	"dataInterval": null,
 	"footer": null,
@@ -64,7 +65,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": false,
-	"ver": "23.8.31.1550",
+	"ver": "24.11.18.1446",
 	"actionWebApp": "",
 	"name": "Surveys Groups",
 	"cardWidth": null,
@@ -78,11 +79,7 @@
 	"imageRepeat": null,
 	"imageSize": null,
 	"imagePosition": null,
-	"iconPlacement": null,
-	"imgShapeCircle": false,
-	"iconOnlyMenu": false,
 	"forceAttributes": false,
-	"imageType": null,
 	"openText": null,
 	"imageHeight": null,
 	"bodyHeight": null,
@@ -92,12 +89,7 @@
 	"cockpitTile": true,
 	"cardImageDarkNone": false,
 	"imageDarkNone": false,
+	"oneTileLayout": false,
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
-	"roles": [
-		{
-			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
-			"name": "neptune-survey",
-			"ver": "23.8.31.1336"
-		}
-	]
+	"roles": []
 }

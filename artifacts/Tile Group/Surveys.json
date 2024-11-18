@@ -12,6 +12,10 @@
 	"configMessage": {
 		"type": "None"
 	},
+	"lightGroupLayouts": [],
+	"darkGroupLayouts": [],
+	"lightTileLayouts": [],
+	"darkTileLayouts": [],
 	"title": "Surveys",
 	"subTitle": null,
 	"menuText": null,
@@ -31,7 +35,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.8.31.1553",
+	"ver": "24.11.18.1446",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -81,31 +85,32 @@
 	"imageDarkHeightMedia": null,
 	"imageTabletDarkHeightMedia": null,
 	"imageMobileDarkHeightMedia": null,
-	"roles": [
-		{
-			"id": "86379e98-646b-4fef-889b-7c6e8c706e45",
-			"name": "neptune-survey",
-			"ver": "23.8.31.1336"
-		}
-	],
+	"forceTileAttributes": false,
+	"forceGroupAttributes": false,
+	"imageDarkNone": false,
+	"imageTabletDarkNone": false,
+	"imageMobileDarkNone": false,
+	"oneGroupLayout": false,
+	"oneTileLayout": false,
+	"roles": [],
 	"tiles": [
 		{
 			"id": "afefc1c6-64dd-4776-b078-465205400a75",
 			"name": "Survey Designer",
 			"title": "Designer",
-			"ver": "23.8.31.1550"
+			"ver": "24.11.18.1446"
 		},
 		{
 			"id": "648df85c-a33d-4c11-a562-8bfc84ac7f66",
 			"name": "Surveys Publish",
 			"title": "Publish",
-			"ver": "23.8.31.1550"
+			"ver": "24.11.18.1446"
 		},
 		{
 			"id": "3b99f525-568a-41e4-84b3-c0a25859ba2b",
 			"name": "Surveys Groups",
 			"title": "Groups",
-			"ver": "23.8.31.1550"
+			"ver": "24.11.18.1446"
 		}
 	],
 	"tilegroups": []
