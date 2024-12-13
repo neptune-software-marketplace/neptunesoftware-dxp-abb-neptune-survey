@@ -6,7 +6,7 @@
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-neptune-survey"
 	},
 	"name": "neptunesoftware-survey",
-	"description": "Surveys",
+	"description": "Create custom, responsive surveys for data collection and preview results in charts.",
 	"ver": "23.8.31.1336",
 	"enableCICD": true,
 	"apps": [
