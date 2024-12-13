@@ -7,7 +7,7 @@
 		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-neptune-survey",
-	"description": "Surveys",
+	"description": "Create custom, responsive surveys for data collection and preview results in charts.",
 	"ver": "24.11.18.1447",
 	"enableCICD": true,
 	"internalReadOnly": false,
