@@ -11,7 +11,7 @@
 	"ver": "24.11.18.1447",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": "24.10.1",
+	"oeVersion": "24.11.0-rc.6",
 	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
@@ -227,13 +227,13 @@
 			"id": "78fec98c-5f76-4cdb-beab-415dd0e969fe",
 			"name": "neptune_survey_group_detail",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "4f39a79b-9194-4847-9bde-ebb42612f643",
 			"name": "neptune_survey_group_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		}
 	],
 	"api_authentication": [],
@@ -303,5 +303,6 @@
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": [],
-	"theme_ui5": []
+	"theme_ui5": [],
+	"webapp": []
 }

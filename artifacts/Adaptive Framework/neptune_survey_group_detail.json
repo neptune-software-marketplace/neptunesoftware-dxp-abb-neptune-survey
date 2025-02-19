@@ -41,7 +41,16 @@
 				"enablePadding": true,
 				"title": "Group",
 				"avatarIcon": "sap-icon://group",
-				"avatarBackgroundColor": "Accent7"
+				"avatarBackgroundColor": "Accent7",
+				"confirmationCheckCreate": false,
+				"confirmationCheckUpdate": false,
+				"titleConfirmCreate": "Create entry",
+				"textConfirmCreate": "Are you sure you want to create this entry?",
+				"titleConfirmUpdate": "Update entry",
+				"textConfirmUpdate": "Are you sure you want to update this entry?",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields"
 			},
 			"form": {
 				"enableCompact": false,
@@ -158,7 +167,40 @@
 			"val": [],
 			"inclusions": {},
 			"exclusions": {}
-		}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "survey_groups"
 	},
 	"name": "neptune_survey_group_detail",
 	"description": "",
@@ -168,10 +210,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.4.7.1055",
+	"ver": "25.02.19.1801",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_edit",
+	"application": "neptunedxp_adaptive_edit",
 	"package": "dad4ca23-ae9f-49aa-bae7-c84308bebda1",
 	"roles": [],
 	"scriptSelObj": null,
