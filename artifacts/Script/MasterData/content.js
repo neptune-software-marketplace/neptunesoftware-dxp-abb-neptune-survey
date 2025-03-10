@@ -1,6 +1,6 @@
 const { Like, Any, IsNull } = operators;
 
-const manager = p9.manager || modules.typeorm.getConnection().manger;
+const manager = p9.manager || modules.typeorm.getConnection().manager;
 
 const emailTemplates = await manager.find("wf_notifications", {
     select: ["name", "description", "id"],
